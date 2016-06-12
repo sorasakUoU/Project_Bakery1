@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class HubActivity extends AppCompatActivity {
+public class HubActivity extends AppCompatActivity implements View.OnClickListener {
 
     //Explicit
     private ImageView orderImageView, readOrderImageView;
@@ -45,7 +45,7 @@ public class HubActivity extends AppCompatActivity {
 
     }
 
-    //@Override
+    @Override
     public void onClick(View view) {
 
         switch (view.getId()) {
