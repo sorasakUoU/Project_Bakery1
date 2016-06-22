@@ -14,7 +14,7 @@ public class ManageTABLE {
     private MyOpenHelper objMyOpenHelper;
     private SQLiteDatabase writeSqLiteDatabase, readSqLiteDatabase;
 
-    public static final String TABLE_USER = "userTABLE";
+    public static final String TABLE_USER = "userTABLE_night";
     public static final String COLUMN_id = "_id";
     public static final String COLUMN_User = "User";
     public static final String COLUMN_Password = "Password";
@@ -24,7 +24,7 @@ public class ManageTABLE {
     public static final String COLUMN_Phone = "Phone";
     public static final String COLUMN_Complacency = "Complacency";
 
-    public static final String TABLE_BREAD = "breadTABLE";
+    public static final String TABLE_BREAD = "breadTABLE_night";
     public static final String COLUMN_Bread = "Bread";
     public static final String COLUMN_Price = "Price";
 
@@ -32,12 +32,12 @@ public class ManageTABLE {
     public static final String COLUMN_Status = "Status";
 
 
-    public static final String TABLE_ORDER = "orderTABLE";
+    public static final String TABLE_ORDER = "orderTABLE_night";
     public static final String COLUMN_Date = "Date";
     public static final String COLUMN_Item = "Item";
     public static final String COLUMN_idReceive = "idReceive";
 
-    public static final String TABLE_ORDER_FINISH = "orderTABLE_finish";
+    public static final String TABLE_ORDER_FINISH = "orderTABLE_finish_night";
 
     public ManageTABLE(Context context) {
 
